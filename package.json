@@ -2,6 +2,14 @@
   "name": "treehouse-babel-template",
   "version": "0.0.1",
   "description": "Project template for \"Getting Started with Babel and ES2015\" on Treehouse.",
-  "scripts": {},
-  "homepage": "https://github.com/treehouse/Babel_IsaacLeeMorris"
+  "scripts": {
+    "build":"webpack"
+  },
+  "homepage": "https://github.com/treehouse/Babel_IsaacLeeMorris",
+  "devDependencies": {
+    "babel-core": "^6.26.0",
+    "babel-loader": "^7.1.2",
+    "babel-preset-es2015": "^6.24.1",
+    "webpack": "^3.10.0"
+  }
 }
